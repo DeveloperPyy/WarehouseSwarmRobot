@@ -1,0 +1,32 @@
+running develop
+Removing /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/install/Lidar_Subscriber/lib/python3.10/site-packages/Lidar-Subscriber.egg-link (link to .)
+running egg_info
+writing build/Lidar_Subscriber/Lidar_Subscriber.egg-info/PKG-INFO
+writing dependency_links to build/Lidar_Subscriber/Lidar_Subscriber.egg-info/dependency_links.txt
+writing entry points to build/Lidar_Subscriber/Lidar_Subscriber.egg-info/entry_points.txt
+writing requirements to build/Lidar_Subscriber/Lidar_Subscriber.egg-info/requires.txt
+writing top-level names to build/Lidar_Subscriber/Lidar_Subscriber.egg-info/top_level.txt
+reading manifest file 'build/Lidar_Subscriber/Lidar_Subscriber.egg-info/SOURCES.txt'
+writing manifest file 'build/Lidar_Subscriber/Lidar_Subscriber.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/build/Lidar_Subscriber/build
+creating /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/build/Lidar_Subscriber/build/lib
+creating /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/build/Lidar_Subscriber/build/lib/Lidar_Subscriber
+copying Lidar_Subscriber/lidar_sub.py -> /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/build/Lidar_Subscriber/build/lib/Lidar_Subscriber
+copying Lidar_Subscriber/__init__.py -> /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/build/Lidar_Subscriber/build/lib/Lidar_Subscriber
+running install
+running install_lib
+creating /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/install/Lidar_Subscriber/lib/python3.10/site-packages/Lidar_Subscriber
+copying /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/build/Lidar_Subscriber/build/lib/Lidar_Subscriber/lidar_sub.py -> /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/install/Lidar_Subscriber/lib/python3.10/site-packages/Lidar_Subscriber
+copying /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/build/Lidar_Subscriber/build/lib/Lidar_Subscriber/__init__.py -> /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/install/Lidar_Subscriber/lib/python3.10/site-packages/Lidar_Subscriber
+byte-compiling /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/install/Lidar_Subscriber/lib/python3.10/site-packages/Lidar_Subscriber/lidar_sub.py to lidar_sub.cpython-310.pyc
+byte-compiling /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/install/Lidar_Subscriber/lib/python3.10/site-packages/Lidar_Subscriber/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/Lidar_Subscriber -> /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/install/Lidar_Subscriber/share/ament_index/resource_index/packages
+copying package.xml -> /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/install/Lidar_Subscriber/share/Lidar_Subscriber
+running install_egg_info
+Copying build/Lidar_Subscriber/Lidar_Subscriber.egg-info to /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/install/Lidar_Subscriber/lib/python3.10/site-packages/Lidar_Subscriber-1.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_sub script to /home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/install/Lidar_Subscriber/lib/Lidar_Subscriber
+writing list of installed files to '/home/shashank/ROS2 Projects/Major Project/Lidar_Subscriber/build/Lidar_Subscriber/install.log'
