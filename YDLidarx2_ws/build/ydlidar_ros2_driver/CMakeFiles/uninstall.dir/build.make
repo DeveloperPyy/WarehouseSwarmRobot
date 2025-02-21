@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/src/ydlidar_ros2_driver-humble"
+CMAKE_SOURCE_DIR = /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar_ros2_driver-humble
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/build/ydlidar_ros2_driver"
+CMAKE_BINARY_DIR = /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_ros2_driver
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd "/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/build/ydlidar_ros2_driver" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/src/ydlidar_ros2_driver-humble" "/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/src/ydlidar_ros2_driver-humble" "/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/build/ydlidar_ros2_driver" "/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/build/ydlidar_ros2_driver" "/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/build/ydlidar_ros2_driver/CMakeFiles/uninstall.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_ros2_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar_ros2_driver-humble /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar_ros2_driver-humble /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_ros2_driver /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_ros2_driver /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_ros2_driver/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

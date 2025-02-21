@@ -1,8 +1,8 @@
-# Install script for directory: /home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/src/YDLidar-SDK/core/serial/impl
+# Install script for directory: /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/core/serial/impl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/install/ydlidar_sdk")
+  set(CMAKE_INSTALL_PREFIX "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/install/ydlidar_sdk")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/build/ydlidar_sdk/core/serial/impl/unix/cmake_install.cmake")
+  include("/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk/core/serial/impl/unix/cmake_install.cmake")
 
 endif()
 

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I"/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/src/YDLidar-SDK/." -I"/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/src/YDLidar-SDK/core" -I"/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/src/YDLidar-SDK/src" -I"/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/src/YDLidar-SDK" -I"/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/src/YDLidar-SDK/.." -I"/home/shashank/ROS2 Projects/Major Project/YDLidarx2_ws/build/ydlidar_sdk/examples"
+C_INCLUDES = -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/. -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/core -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/src -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/.. -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk/examples
 
 C_FLAGS = -fPIC -std=c++11
 
