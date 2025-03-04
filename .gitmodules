@@ -1,3 +1,6 @@
 [submodule "Cartographer_ws/src/cartographer"]
 	path = Cartographer_ws/src/cartographer
 	url = https://github.com/ROBOTIS-GIT/turtlebot3.git
+[submodule "YDLidarx2_ws/src/ydlidar-sdk"]
+	path = YDLidarx2_ws/src/ydlidar-sdk
+	url = https://github.com/YDLIDAR/YDLidar-SDK
