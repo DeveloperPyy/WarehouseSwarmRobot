@@ -1,3 +1,6 @@
 [submodule "YDLidarx2_ws/src/ydlidar-sdk"]
 	path = YDLidarx2_ws/src/ydlidar-sdk
 	url = https://github.com/YDLIDAR/YDLidar-SDK
+[submodule "YDLidarx2_ws/src/ydlidar_ros2_driver-humble"]
+	path = YDLidarx2_ws/src/ydlidar_ros2_driver-humble
+	url = https://github.com/YDLIDAR/ydlidar_ros2_driver
