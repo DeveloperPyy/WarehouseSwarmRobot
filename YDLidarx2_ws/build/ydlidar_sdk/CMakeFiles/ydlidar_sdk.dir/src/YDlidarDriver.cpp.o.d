@@ -1,7 +1,7 @@
 CMakeFiles/ydlidar_sdk.dir/src/YDlidarDriver.cpp.o: \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/src/YDlidarDriver.cpp \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/src/YDlidarDriver.cpp \
  /usr/include/stdc-predef.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/serial/serial.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/serial/serial.h \
  /usr/include/c++/11/limits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -155,8 +155,8 @@ CMakeFiles/ydlidar_sdk.dir/src/YDlidarDriver.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/base/v8stdint.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/base/datatype.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/base/v8stdint.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/base/datatype.h \
  /usr/include/c++/11/stdlib.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
@@ -201,11 +201,11 @@ CMakeFiles/ydlidar_sdk.dir/src/YDlidarDriver.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/base/typedef.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/base/ydlidar.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/common/ChannelDevice.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/network/ActiveSocket.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/network/SimpleSocket.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/base/typedef.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/base/ydlidar.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/common/ChannelDevice.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/network/ActiveSocket.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/network/SimpleSocket.h \
  /usr/include/assert.h /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/tuple \
  /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
@@ -250,8 +250,8 @@ CMakeFiles/ydlidar_sdk.dir/src/YDlidarDriver.cpp.o: \
  /usr/include/asm-generic/ioctl.h \
  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/network/StatTimer.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/src/YDlidarDriver.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/network/StatTimer.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/src/YDlidarDriver.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
@@ -259,20 +259,20 @@ CMakeFiles/ydlidar_sdk.dir/src/YDlidarDriver.cpp.o: \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/base/locker.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/base/thread.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/base/v8stdint.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/base/timer.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/base/locker.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/base/thread.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/base/v8stdint.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/base/timer.h \
  /usr/include/inttypes.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/base/utils.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/common/ydlidar_protocol.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/base/utils.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/common/ydlidar_protocol.h \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/common/ydlidar_datatype.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/base/datatype.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/common/ydlidar_def.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/base/typedef.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/common/DriverInterface.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/common/ydlidar_help.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/common/ydlidar_datatype.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/base/datatype.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/common/ydlidar_def.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/base/typedef.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/common/DriverInterface.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/common/ydlidar_help.h \
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -280,8 +280,8 @@ CMakeFiles/ydlidar_sdk.dir/src/YDlidarDriver.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/11/bits/codecvt.h \
  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/serial/common.h \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/serial/impl/unix/unix.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/serial/common.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/serial/impl/unix/unix.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -293,7 +293,7 @@ CMakeFiles/ydlidar_sdk.dir/src/YDlidarDriver.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
  /usr/include/c++/11/iostream \
- /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/./core/serial/impl/unix/unix_serial.h \
+ /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/./core/serial/impl/unix/unix_serial.h \
  /usr/include/termios.h /usr/include/x86_64-linux-gnu/bits/termios.h \
  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
  /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \

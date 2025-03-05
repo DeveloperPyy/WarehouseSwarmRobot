@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK
+CMAKE_SOURCE_DIR = /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk
@@ -82,6 +82,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

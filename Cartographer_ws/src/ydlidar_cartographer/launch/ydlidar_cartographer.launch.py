@@ -22,7 +22,7 @@ def generate_launch_description():
                 "--configuration_basename", "mapping.lua"
             ],
             remappings=[
-                ("/robot1/scan", "/scan")
+                ("/scan", "/bot1/scan")
             ]
         ),
         Node(

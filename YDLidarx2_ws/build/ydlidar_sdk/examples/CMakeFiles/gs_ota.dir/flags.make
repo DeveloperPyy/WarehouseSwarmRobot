@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/. -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/core -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/src -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/.. -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk/examples
+CXX_INCLUDES = -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/. -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/core -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/src -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/.. -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk/examples
 
 CXX_FLAGS =  -std=c++11 -fPIC -std=c++11
 

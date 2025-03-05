@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/python/examples
+# Source directory: /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/python/examples
 # Build directory: /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk/python/examples
 # 
 # This file includes the relevant testing commands required for 

@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK
+CMAKE_SOURCE_DIR = /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -D_ydlidar_EXPORTS
 
-CXX_INCLUDES = -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/. -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/core -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/src -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/python -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/.. -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk/python -I/usr/include/python3.10
+CXX_INCLUDES = -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/. -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/core -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/src -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/python -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/.. -I/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk/python -I/usr/include/python3.10
 
 CXX_FLAGS =  -std=c++11 -std=c++11 -fPIC   -std=c++11 -fPIC
 

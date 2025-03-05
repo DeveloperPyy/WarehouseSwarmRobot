@@ -8,19 +8,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/python/ydlidar_sdk.i" "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk/python/CMakeFiles/_ydlidar.dir/ydlidar_sdkPYTHON.stamp"
+  "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/python/ydlidar_sdk.i" "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/build/ydlidar_sdk/python/CMakeFiles/_ydlidar.dir/ydlidar_sdkPYTHON.stamp"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/."
-  "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/core"
-  "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/src"
-  "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK"
+  "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/."
+  "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/core"
+  "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/src"
+  "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk"
   "."
-  "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/python"
-  "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/.."
+  "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/python"
+  "/home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/.."
   "python"
   "/usr/include/python3.10"
   )

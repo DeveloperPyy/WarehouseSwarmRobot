@@ -1,4 +1,4 @@
-# Install script for directory: /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/YDLidar-SDK/core/base
+# Install script for directory: /home/shashank/ROS2_Projects/Major_Project/YDLidarx2_ws/src/ydlidar-sdk/core/base
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
