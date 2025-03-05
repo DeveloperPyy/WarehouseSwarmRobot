@@ -1,3 +1,0 @@
-[console_scripts]
-lidar_sub = Lidar_Subscriber.lidar_sub:main
-
