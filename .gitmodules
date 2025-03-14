@@ -6,3 +6,5 @@
 [submodule "YDLidarx2_ws/src/ydlidar_ros2_driver"]
 	path = YDLidarx2_ws/src/ydlidar_ros2_driver
 	url = https://github.com/DeveloperPyy/ydlidar_ros2_driver
+[submodule "YDLidar_ws/src/ydlidar_ros2_driver"]
+	url = https://github.com/YOUR_GITHUB_USERNAME/ydlidar_ros2_driver.git
