@@ -1,0 +1,916 @@
+[0.131s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.131s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75a1ee36a4a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75a1ee369a20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75a1ee369a20>>, mixin_verb=('build',))
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.298s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_configs) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_configs) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_configs) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_configs) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_configs) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_configs) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_configs) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_configs) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_configs) by extension 'ros'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_configs) by extensions ['cmake', 'python']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_configs) by extension 'cmake'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_configs) by extension 'python'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_configs) by extensions ['python_setup_py']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_configs) by extension 'python_setup_py'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_multi_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_multi_robot) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_multi_robot) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_multi_robot) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_multi_robot) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_multi_robot) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_multi_robot) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_multi_robot) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_multi_robot) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_multi_robot' with type 'ros.ament_python' and name 'cartographer_multi_robot'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_merger) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_merger) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_merger) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_merger) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_merger) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_merger) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_merger) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_merger) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_merger) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scan_merger' with type 'ros.ament_python' and name 'scan_merger'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/YDLidar-SDK) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/YDLidar-SDK) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/YDLidar-SDK) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/YDLidar-SDK) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/YDLidar-SDK) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/YDLidar-SDK) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/YDLidar-SDK) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/YDLidar-SDK) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/YDLidar-SDK) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/YDLidar-SDK) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/YDLidar-SDK) by extension 'python'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot_swarmrobot/YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_bringup) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_bringup) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_bringup) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_bringup) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_bringup) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_bringup) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_bringup) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_bringup) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot_swarmrobot/tortoisebot_bringup' with type 'ros.ament_cmake' and name 'tortoisebot_bringup'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_control) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_control) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_control) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_control) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_control) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_control) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_control) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_control) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot_swarmrobot/tortoisebot_control' with type 'ros.ament_python' and name 'tortoisebot_control'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_description) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_description) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_description) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_description) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_description) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_description) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_description) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_description) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot_swarmrobot/tortoisebot_description' with type 'ros.ament_cmake' and name 'tortoisebot_description'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_firmware) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_firmware) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_firmware) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_firmware) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_firmware) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_firmware) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_firmware) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_firmware) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot_swarmrobot/tortoisebot_firmware' with type 'ros.ament_cmake' and name 'tortoisebot_firmware'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_gazebo) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_gazebo) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_gazebo) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_gazebo) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_gazebo) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_gazebo) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_gazebo) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_gazebo) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot_swarmrobot/tortoisebot_gazebo' with type 'ros.ament_cmake' and name 'tortoisebot_gazebo'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_imu) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_imu) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_imu) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_imu) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_imu) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_imu) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_imu) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_imu) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_imu) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot_swarmrobot/tortoisebot_imu' with type 'ros.ament_cmake' and name 'tortoisebot_imu'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_navigation) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_navigation) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_navigation) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_navigation) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_navigation) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_navigation) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_navigation) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_navigation) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot_swarmrobot/tortoisebot_navigation' with type 'ros.ament_cmake' and name 'tortoisebot_navigation'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_slam) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_slam) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_slam) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_slam) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_slam) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_slam) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_slam) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/tortoisebot_slam) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot_swarmrobot/tortoisebot_slam' with type 'ros.ament_cmake' and name 'tortoisebot_slam'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/v4l2_camera) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/v4l2_camera) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/v4l2_camera) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/v4l2_camera) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/v4l2_camera) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/v4l2_camera) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/v4l2_camera) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/v4l2_camera) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot_swarmrobot/v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/ydlidar_ros2_driver) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/ydlidar_ros2_driver) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_swarmrobot/ydlidar_ros2_driver) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot_swarmrobot/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.391s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 340 installed packages in /opt/ros/humble
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_multi_robot' build argument 'cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_multi_robot' build argument 'cmake_target' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_multi_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_multi_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_multi_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_multi_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_multi_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_multi_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_multi_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.431s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_multi_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot', 'merge_install': False, 'path': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/cartographer_multi_robot', 'symlink_install': True, 'test_result_base': None}
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'scan_merger' build argument 'cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'scan_merger' build argument 'cmake_target' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'scan_merger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'scan_merger' build argument 'cmake_clean_cache' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'scan_merger' build argument 'cmake_clean_first' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'scan_merger' build argument 'cmake_force_configure' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'scan_merger' build argument 'ament_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'scan_merger' build argument 'catkin_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'scan_merger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.431s] DEBUG:colcon.colcon_core.verb:Building package 'scan_merger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger', 'merge_install': False, 'path': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/scan_merger', 'symlink_install': True, 'test_result_base': None}
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.432s] DEBUG:colcon.colcon_core.verb:Building package 'tortoisebot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup', 'merge_install': False, 'path': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_control' build argument 'cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_control' build argument 'cmake_target' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] DEBUG:colcon.colcon_core.verb:Building package 'tortoisebot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control', 'merge_install': False, 'path': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_control', 'symlink_install': True, 'test_result_base': None}
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_description' build argument 'cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_description' build argument 'cmake_target' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] DEBUG:colcon.colcon_core.verb:Building package 'tortoisebot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description', 'merge_install': False, 'path': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_description', 'symlink_install': True, 'test_result_base': None}
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_firmware' build argument 'cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_firmware' build argument 'cmake_target' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.434s] DEBUG:colcon.colcon_core.verb:Building package 'tortoisebot_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware', 'merge_install': False, 'path': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_firmware', 'symlink_install': True, 'test_result_base': None}
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.434s] DEBUG:colcon.colcon_core.verb:Building package 'tortoisebot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo', 'merge_install': False, 'path': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_imu' build argument 'cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_imu' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_imu' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_imu' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_imu' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'tortoisebot_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu', 'merge_install': False, 'path': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_imu', 'symlink_install': True, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_navigation' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_navigation' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'tortoisebot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation', 'merge_install': False, 'path': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_slam' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_slam' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'tortoisebot_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam', 'merge_install': False, 'path': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_slam', 'symlink_install': True, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'v4l2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera', 'merge_install': False, 'path': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/v4l2_camera', 'symlink_install': True, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/ydlidar_ros2_driver', 'symlink_install': True, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk', 'merge_install': False, 'path': '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/YDLidar-SDK', 'symlink_install': True, 'test_result_base': None}
+[0.437s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.439s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/cartographer_multi_robot' with build type 'ament_python'
+[0.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_multi_robot', 'ament_prefix_path')
+[0.443s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/hook/ament_prefix_path.ps1'
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/hook/ament_prefix_path.dsv'
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/hook/ament_prefix_path.sh'
+[0.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.445s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.448s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/scan_merger' with build type 'ament_python'
+[0.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_merger', 'ament_prefix_path')
+[0.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/scan_merger/hook/ament_prefix_path.ps1'
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/scan_merger/hook/ament_prefix_path.dsv'
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/scan_merger/hook/ament_prefix_path.sh'
+[0.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.449s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.453s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_bringup' with build type 'ament_cmake'
+[0.453s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_bringup'
+[0.453s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.453s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.456s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_control' with build type 'ament_python'
+[0.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_control', 'ament_prefix_path')
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/tortoisebot_control/hook/ament_prefix_path.ps1'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/tortoisebot_control/hook/ament_prefix_path.dsv'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/tortoisebot_control/hook/ament_prefix_path.sh'
+[0.457s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_description' with build type 'ament_cmake'
+[0.460s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_description'
+[0.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.463s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_firmware' with build type 'ament_cmake'
+[0.463s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_firmware'
+[0.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.466s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_gazebo' with build type 'ament_cmake'
+[0.466s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_gazebo'
+[0.466s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.466s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.469s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_imu' with build type 'ament_cmake'
+[0.469s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_imu'
+[0.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.472s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_navigation' with build type 'ament_cmake'
+[0.472s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_navigation'
+[0.472s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.472s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.475s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_slam' with build type 'ament_cmake'
+[0.475s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_slam'
+[0.475s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.477s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/v4l2_camera' with build type 'ament_cmake'
+[0.477s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/v4l2_camera'
+[0.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.480s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/ydlidar_ros2_driver' with build type 'ament_cmake'
+[0.480s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/ydlidar_ros2_driver'
+[0.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.480s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.483s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/YDLidar-SDK'
+[0.483s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.483s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.721s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/cartographer_multi_robot'
+[0.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.722s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.963s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/scan_merger'
+[0.963s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.963s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup
+[1.203s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_control'
+[1.203s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description
+[1.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_firmware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware
+[1.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo
+[1.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_imu -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu
+[1.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation
+[1.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_slam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam
+[1.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/v4l2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera
+[1.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver
+[1.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk': /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk
+[1.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup
+[1.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_bringup -- -j16 -l16
+[1.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger/build --no-deps symlink_data
+[1.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control/build --no-deps symlink_data
+[1.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/build --no-deps symlink_data
+[2.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_bringup -- -j16 -l16
+[2.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_bringup
+[2.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo
+[2.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo -- -j16 -l16
+[2.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk' returned '0': /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk
+[2.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk': /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk -- -j16 -l16
+[2.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_imu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_imu -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu
+[2.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_imu -- -j16 -l16
+[2.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description
+[2.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_description -- -j16 -l16
+[2.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation
+[2.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_navigation -- -j16 -l16
+[2.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_slam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam
+[2.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam -- -j16 -l16
+[2.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo -- -j16 -l16
+[2.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo
+[2.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_bringup)
+[2.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_bringup
+[2.390s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup' for CMake module files
+[2.391s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup' for CMake config files
+[2.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_bringup', 'cmake_prefix_path')
+[2.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/hook/cmake_prefix_path.ps1'
+[2.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/hook/cmake_prefix_path.dsv'
+[2.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/hook/cmake_prefix_path.sh'
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/bin'
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/lib/pkgconfig/tortoisebot_bringup.pc'
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/lib/python3.10/site-packages'
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/bin'
+[2.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/package.ps1'
+[2.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/package.dsv'
+[2.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/package.sh'
+[2.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/package.bash'
+[2.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/package.zsh'
+[2.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/colcon-core/packages/tortoisebot_bringup)
+[2.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_bringup)
+[2.427s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup' for CMake module files
+[2.428s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup' for CMake config files
+[2.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_bringup', 'cmake_prefix_path')
+[2.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/hook/cmake_prefix_path.ps1'
+[2.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/hook/cmake_prefix_path.dsv'
+[2.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/hook/cmake_prefix_path.sh'
+[2.436s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/bin'
+[2.436s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/lib/pkgconfig/tortoisebot_bringup.pc'
+[2.437s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/lib/python3.10/site-packages'
+[2.437s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/bin'
+[2.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/package.ps1'
+[2.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/package.dsv'
+[2.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/package.sh'
+[2.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/package.bash'
+[2.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/tortoisebot_bringup/package.zsh'
+[2.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_bringup/share/colcon-core/packages/tortoisebot_bringup)
+[2.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_navigation -- -j16 -l16
+[2.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_navigation
+[2.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_imu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_imu -- -j16 -l16
+[2.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_imu
+[2.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_description -- -j16 -l16
+[2.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_description
+[2.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam -- -j16 -l16
+[2.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam
+[3.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_multi_robot', 'pythonpath_develop')
+[3.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/share/cartographer_multi_robot/hook/pythonpath_develop.ps1'
+[3.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/share/cartographer_multi_robot/hook/pythonpath_develop.dsv'
+[3.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/share/cartographer_multi_robot/hook/pythonpath_develop.sh'
+[3.154s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot' for CMake module files
+[3.154s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot' for CMake config files
+[3.155s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/lib'
+[3.156s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/bin'
+[3.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot' returned '0': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/build --no-deps symlink_data
+[3.167s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/lib/pkgconfig/cartographer_multi_robot.pc'
+[3.171s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/lib/python3.10/site-packages'
+[3.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_multi_robot', 'pythonpath')
+[3.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/hook/pythonpath.ps1'
+[3.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/hook/pythonpath.dsv'
+[3.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/hook/pythonpath.sh'
+[3.179s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/bin'
+[3.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_multi_robot)
+[3.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/package.ps1'
+[3.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/package.dsv'
+[3.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/package.sh'
+[3.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/package.bash'
+[3.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/package.zsh'
+[3.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/colcon-core/packages/cartographer_multi_robot)
+[3.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_control', 'pythonpath_develop')
+[3.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control/share/tortoisebot_control/hook/pythonpath_develop.ps1'
+[3.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control' returned '0': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control/build --no-deps symlink_data
+[3.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control/share/tortoisebot_control/hook/pythonpath_develop.dsv'
+[3.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control/share/tortoisebot_control/hook/pythonpath_develop.sh'
+[3.207s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control' for CMake module files
+[3.208s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control' for CMake config files
+[3.208s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/lib'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/bin'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/lib/pkgconfig/tortoisebot_control.pc'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/lib/python3.10/site-packages'
+[3.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_control', 'pythonpath')
+[3.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/tortoisebot_control/hook/pythonpath.ps1'
+[3.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/tortoisebot_control/hook/pythonpath.dsv'
+[3.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/tortoisebot_control/hook/pythonpath.sh'
+[3.212s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/bin'
+[3.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_control)
+[3.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/tortoisebot_control/package.ps1'
+[3.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/tortoisebot_control/package.dsv'
+[3.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/tortoisebot_control/package.sh'
+[3.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/tortoisebot_control/package.bash'
+[3.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/tortoisebot_control/package.zsh'
+[3.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/colcon-core/packages/tortoisebot_control)
+[3.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_merger', 'pythonpath_develop')
+[3.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger/share/scan_merger/hook/pythonpath_develop.ps1'
+[3.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger' returned '0': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger/build --no-deps symlink_data
+[3.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger/share/scan_merger/hook/pythonpath_develop.dsv'
+[3.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger/share/scan_merger/hook/pythonpath_develop.sh'
+[3.228s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger' for CMake module files
+[3.232s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger' for CMake config files
+[3.233s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/lib'
+[3.234s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/bin'
+[3.234s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/lib/pkgconfig/scan_merger.pc'
+[3.234s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/lib/python3.10/site-packages'
+[3.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_merger', 'pythonpath')
+[3.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/scan_merger/hook/pythonpath.ps1'
+[3.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/scan_merger/hook/pythonpath.dsv'
+[3.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/scan_merger/hook/pythonpath.sh'
+[3.242s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/bin'
+[3.242s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scan_merger)
+[3.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/scan_merger/package.ps1'
+[3.244s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/scan_merger/package.dsv'
+[3.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/scan_merger/package.sh'
+[3.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/scan_merger/package.bash'
+[3.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/scan_merger/package.zsh'
+[3.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/colcon-core/packages/scan_merger)
+[3.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_imu)
+[3.258s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu' for CMake module files
+[3.266s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu' for CMake config files
+[3.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_imu', 'cmake_prefix_path')
+[3.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/hook/cmake_prefix_path.ps1'
+[3.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/hook/cmake_prefix_path.dsv'
+[3.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/hook/cmake_prefix_path.sh'
+[3.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_imu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_imu
+[3.277s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/lib'
+[3.278s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/bin'
+[3.278s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/lib/pkgconfig/tortoisebot_imu.pc'
+[3.278s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/lib/python3.10/site-packages'
+[3.279s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/bin'
+[3.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/package.ps1'
+[3.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/package.dsv'
+[3.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/package.sh'
+[3.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/package.bash'
+[3.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/package.zsh'
+[3.288s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/colcon-core/packages/tortoisebot_imu)
+[3.294s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_imu)
+[3.294s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu' for CMake module files
+[3.295s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu' for CMake config files
+[3.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_imu', 'cmake_prefix_path')
+[3.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/hook/cmake_prefix_path.ps1'
+[3.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/hook/cmake_prefix_path.dsv'
+[3.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/hook/cmake_prefix_path.sh'
+[3.305s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/lib'
+[3.305s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/bin'
+[3.305s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/lib/pkgconfig/tortoisebot_imu.pc'
+[3.306s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/lib/python3.10/site-packages'
+[3.306s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/bin'
+[3.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/package.ps1'
+[3.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/package.dsv'
+[3.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/package.sh'
+[3.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/package.bash'
+[3.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/tortoisebot_imu/package.zsh'
+[3.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_imu/share/colcon-core/packages/tortoisebot_imu)
+[3.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_navigation)
+[3.314s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation' for CMake module files
+[3.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_navigation
+[3.316s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation' for CMake config files
+[3.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_navigation', 'cmake_prefix_path')
+[3.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/hook/cmake_prefix_path.ps1'
+[3.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/hook/cmake_prefix_path.dsv'
+[3.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/hook/cmake_prefix_path.sh'
+[3.320s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/bin'
+[3.320s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/lib/pkgconfig/tortoisebot_navigation.pc'
+[3.321s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/lib/python3.10/site-packages'
+[3.321s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/bin'
+[3.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/package.ps1'
+[3.323s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/package.dsv'
+[3.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/package.sh'
+[3.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/package.bash'
+[3.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/package.zsh'
+[3.325s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/colcon-core/packages/tortoisebot_navigation)
+[3.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_navigation)
+[3.335s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation' for CMake module files
+[3.336s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation' for CMake config files
+[3.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_navigation', 'cmake_prefix_path')
+[3.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/hook/cmake_prefix_path.ps1'
+[3.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/hook/cmake_prefix_path.dsv'
+[3.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/hook/cmake_prefix_path.sh'
+[3.342s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/bin'
+[3.342s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/lib/pkgconfig/tortoisebot_navigation.pc'
+[3.342s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/lib/python3.10/site-packages'
+[3.343s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/bin'
+[3.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/package.ps1'
+[3.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/package.dsv'
+[3.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/package.sh'
+[3.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/package.bash'
+[3.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/tortoisebot_navigation/package.zsh'
+[3.350s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_navigation/share/colcon-core/packages/tortoisebot_navigation)
+[3.352s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_gazebo)
+[3.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo
+[3.354s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo' for CMake module files
+[3.355s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo' for CMake config files
+[3.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_gazebo', 'cmake_prefix_path')
+[3.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/hook/cmake_prefix_path.ps1'
+[3.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/hook/cmake_prefix_path.dsv'
+[3.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/hook/cmake_prefix_path.sh'
+[3.359s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/bin'
+[3.361s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/lib/pkgconfig/tortoisebot_gazebo.pc'
+[3.361s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/lib/python3.10/site-packages'
+[3.362s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/bin'
+[3.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.ps1'
+[3.364s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.dsv'
+[3.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.sh'
+[3.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.bash'
+[3.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.zsh'
+[3.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/colcon-core/packages/tortoisebot_gazebo)
+[3.367s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_gazebo)
+[3.368s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo' for CMake module files
+[3.369s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo' for CMake config files
+[3.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_gazebo', 'cmake_prefix_path')
+[3.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/hook/cmake_prefix_path.ps1'
+[3.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/hook/cmake_prefix_path.dsv'
+[3.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/hook/cmake_prefix_path.sh'
+[3.373s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/bin'
+[3.373s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/lib/pkgconfig/tortoisebot_gazebo.pc'
+[3.373s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/lib/python3.10/site-packages'
+[3.374s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/bin'
+[3.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.ps1'
+[3.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.dsv'
+[3.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.sh'
+[3.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.bash'
+[3.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.zsh'
+[3.381s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/colcon-core/packages/tortoisebot_gazebo)
+[3.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_slam)
+[3.384s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam' for CMake module files
+[3.385s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam' for CMake config files
+[3.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_slam', 'cmake_prefix_path')
+[3.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/hook/cmake_prefix_path.ps1'
+[3.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam
+[3.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/hook/cmake_prefix_path.dsv'
+[3.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/hook/cmake_prefix_path.sh'
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/bin'
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/lib/pkgconfig/tortoisebot_slam.pc'
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/lib/python3.10/site-packages'
+[3.391s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/bin'
+[3.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/package.ps1'
+[3.405s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/package.dsv'
+[3.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/package.sh'
+[3.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/package.bash'
+[3.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/package.zsh'
+[3.411s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/colcon-core/packages/tortoisebot_slam)
+[3.412s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_slam)
+[3.413s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam' for CMake module files
+[3.414s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam' for CMake config files
+[3.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_slam', 'cmake_prefix_path')
+[3.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/hook/cmake_prefix_path.ps1'
+[3.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/hook/cmake_prefix_path.dsv'
+[3.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/hook/cmake_prefix_path.sh'
+[3.418s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/bin'
+[3.418s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/lib/pkgconfig/tortoisebot_slam.pc'
+[3.419s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/lib/python3.10/site-packages'
+[3.419s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/bin'
+[3.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/package.ps1'
+[3.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/package.dsv'
+[3.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/package.sh'
+[3.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/package.bash'
+[3.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/package.zsh'
+[3.434s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/colcon-core/packages/tortoisebot_slam)
+[3.521s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_description)
+[3.522s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description' for CMake module files
+[3.523s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description' for CMake config files
+[3.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_description', 'cmake_prefix_path')
+[3.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/hook/cmake_prefix_path.ps1'
+[3.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_description
+[3.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/hook/cmake_prefix_path.dsv'
+[3.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/hook/cmake_prefix_path.sh'
+[3.537s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/bin'
+[3.537s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/lib/pkgconfig/tortoisebot_description.pc'
+[3.538s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/lib/python3.10/site-packages'
+[3.538s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/bin'
+[3.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/package.ps1'
+[3.545s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/package.dsv'
+[3.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/package.sh'
+[3.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/package.bash'
+[3.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/package.zsh'
+[3.548s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/colcon-core/packages/tortoisebot_description)
+[3.549s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_description)
+[3.550s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description' for CMake module files
+[3.551s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description' for CMake config files
+[3.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_description', 'cmake_prefix_path')
+[3.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/hook/cmake_prefix_path.ps1'
+[3.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/hook/cmake_prefix_path.dsv'
+[3.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/hook/cmake_prefix_path.sh'
+[3.555s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/bin'
+[3.555s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/lib/pkgconfig/tortoisebot_description.pc'
+[3.555s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/lib/python3.10/site-packages'
+[3.556s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/bin'
+[3.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/package.ps1'
+[3.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/package.dsv'
+[3.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/package.sh'
+[3.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/package.bash'
+[3.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/tortoisebot_description/package.zsh'
+[3.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_description/share/colcon-core/packages/tortoisebot_description)
+[4.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/tortoisebot_firmware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware
+[4.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_firmware -- -j16 -l16
+[4.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver
+[4.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_ros2_driver -- -j16 -l16
+[4.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/v4l2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera
+[4.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera -- -j16 -l16
+[4.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_firmware -- -j16 -l16
+[4.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_firmware
+[5.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_firmware)
+[5.139s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware' for CMake module files
+[5.140s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware' for CMake config files
+[5.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_firmware', 'cmake_prefix_path')
+[5.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/hook/cmake_prefix_path.ps1'
+[5.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_firmware
+[5.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/hook/cmake_prefix_path.dsv'
+[5.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/hook/cmake_prefix_path.sh'
+[5.153s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/lib'
+[5.153s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/bin'
+[5.153s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/lib/pkgconfig/tortoisebot_firmware.pc'
+[5.157s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/lib/python3.10/site-packages'
+[5.158s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/bin'
+[5.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/package.ps1'
+[5.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/package.dsv'
+[5.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/package.sh'
+[5.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/package.bash'
+[5.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/package.zsh'
+[5.167s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/colcon-core/packages/tortoisebot_firmware)
+[5.172s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_firmware)
+[5.172s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware' for CMake module files
+[5.173s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware' for CMake config files
+[5.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_firmware', 'cmake_prefix_path')
+[5.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/hook/cmake_prefix_path.ps1'
+[5.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/hook/cmake_prefix_path.dsv'
+[5.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/hook/cmake_prefix_path.sh'
+[5.181s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/lib'
+[5.181s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/bin'
+[5.181s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/lib/pkgconfig/tortoisebot_firmware.pc'
+[5.182s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/lib/python3.10/site-packages'
+[5.182s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/bin'
+[5.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/package.ps1'
+[5.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/package.dsv'
+[5.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/package.sh'
+[5.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/package.bash'
+[5.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/tortoisebot_firmware/package.zsh'
+[5.187s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/share/colcon-core/packages/tortoisebot_firmware)
+[7.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk -- -j16 -l16
+[7.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk': /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk
+[8.026s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_sdk)
+[8.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk
+[8.026s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk' for CMake module files
+[8.027s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk' for CMake config files
+[8.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'cmake_prefix_path')
+[8.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.ps1'
+[8.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.dsv'
+[8.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.sh'
+[8.029s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/lib'
+[8.029s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/bin'
+[8.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'path')
+[8.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.ps1'
+[8.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.dsv'
+[8.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.sh'
+[8.030s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/lib/pkgconfig/ydlidar_sdk.pc'
+[8.031s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/lib/python3.10/site-packages'
+[8.031s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/bin'
+[8.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'pythonscriptspath')
+[8.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.ps1'
+[8.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.dsv'
+[8.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.sh'
+[8.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/share/ydlidar_sdk/package.ps1'
+[8.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/share/ydlidar_sdk/package.dsv'
+[8.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/share/ydlidar_sdk/package.sh'
+[8.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/share/ydlidar_sdk/package.bash'
+[8.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/share/ydlidar_sdk/package.zsh'
+[8.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk/share/colcon-core/packages/ydlidar_sdk)
+[14.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_ros2_driver -- -j16 -l16
+[14.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_ros2_driver
+[14.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[14.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_ros2_driver
+[14.464s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver' for CMake module files
+[14.465s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver' for CMake config files
+[14.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[14.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[14.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[14.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[14.467s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/lib'
+[14.467s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/bin'
+[14.467s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[14.467s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[14.468s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/bin'
+[14.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[14.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[14.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[14.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[14.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[14.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[14.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[14.470s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver' for CMake module files
+[14.471s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver' for CMake config files
+[14.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[14.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[14.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[14.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[14.473s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/lib'
+[14.473s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/bin'
+[14.473s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[14.473s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[14.473s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/bin'
+[14.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[14.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[14.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[14.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[14.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[14.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[22.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera -- -j16 -l16
+[22.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera
+[22.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[22.539s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera' for CMake module files
+[22.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera
+[22.540s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera' for CMake config files
+[22.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[22.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[22.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[22.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[22.541s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/lib'
+[22.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[22.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[22.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[22.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[22.542s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/bin'
+[22.542s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[22.543s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/lib/python3.10/site-packages'
+[22.543s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/bin'
+[22.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[22.543s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[22.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/package.sh'
+[22.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/package.bash'
+[22.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[22.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[22.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[22.545s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera' for CMake module files
+[22.546s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera' for CMake config files
+[22.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[22.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[22.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[22.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[22.547s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/lib'
+[22.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[22.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[22.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[22.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[22.548s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/bin'
+[22.548s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[22.549s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/lib/python3.10/site-packages'
+[22.549s] Level 1:colcon.colcon_core.environment:checking '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/bin'
+[22.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[22.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[22.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/package.sh'
+[22.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/package.bash'
+[22.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[22.551s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[22.551s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.551s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.551s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.551s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.562s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.562s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.562s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.574s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.574s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/local_setup.ps1'
+[22.575s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/_local_setup_util_ps1.py'
+[22.576s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/setup.ps1'
+[22.577s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/local_setup.sh'
+[22.578s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/_local_setup_util_sh.py'
+[22.578s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/setup.sh'
+[22.579s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/local_setup.bash'
+[22.579s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/setup.bash'
+[22.580s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/local_setup.zsh'
+[22.581s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/setup.zsh'
