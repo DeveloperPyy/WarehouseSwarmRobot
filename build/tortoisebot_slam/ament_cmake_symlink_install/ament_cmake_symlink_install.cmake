@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/shashank/ROS2_Projects/Rigbetellabs/install/tortoisebot_slam/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/shashank/ROS2_Projects/Rigbetellabs/install/tortoisebot_slam/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/shashank/ROS2_Projects/Rigbetellabs/install/tortoisebot_slam/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/shashank/ROS2_Projects/Rigbetellabs/install/tortoisebot_slam/${destination}")
+      set(destination "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "launch" "config" "DESTINATION" "share/tortoisebot_slam")
-ament_cmake_symlink_install_directory("/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam" DIRECTORY "launch" "config" "DESTINATION" "share/tortoisebot_slam")
+ament_cmake_symlink_install_directory("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam" DIRECTORY "launch" "config" "DESTINATION" "share/tortoisebot_slam")
 
-# install(FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/tortoisebot_slam" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/tortoisebot_slam" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/tortoisebot_slam" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/tortoisebot_slam" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/tortoisebot_slam" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/tortoisebot_slam" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/tortoisebot_slam" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/tortoisebot_slam" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/tortoisebot_slam/environment")
-ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/tortoisebot_slam/environment")
+ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/tortoisebot_slam/environment")
 
-# install(FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/tortoisebot_slam/environment")
-ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/tortoisebot_slam/environment")
+# install(FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/tortoisebot_slam/environment")
+ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/tortoisebot_slam/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/tortoisebot_slam/environment")
-ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/tortoisebot_slam/environment")
+ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/tortoisebot_slam/environment")
 
-# install(FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/tortoisebot_slam/environment")
-ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/tortoisebot_slam/environment")
+# install(FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/tortoisebot_slam/environment")
+ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/tortoisebot_slam/environment")
 
-# install(FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/tortoisebot_slam")
-ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/tortoisebot_slam")
+# install(FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/tortoisebot_slam")
+ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/tortoisebot_slam")
 
-# install(FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/tortoisebot_slam")
-ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/tortoisebot_slam")
+# install(FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/tortoisebot_slam")
+ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/tortoisebot_slam")
 
-# install(FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/tortoisebot_slam")
-ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/tortoisebot_slam")
+# install(FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/tortoisebot_slam")
+ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/tortoisebot_slam")
 
-# install(FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/tortoisebot_slam")
-ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/tortoisebot_slam")
+# install(FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/tortoisebot_slam")
+ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/tortoisebot_slam")
 
-# install(FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/tortoisebot_slam")
-ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/tortoisebot_slam")
+# install(FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/tortoisebot_slam")
+ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/tortoisebot_slam")
 
-# install(FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_index/share/ament_index/resource_index/packages/tortoisebot_slam" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_index/share/ament_index/resource_index/packages/tortoisebot_slam" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_index/share/ament_index/resource_index/packages/tortoisebot_slam" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_index/share/ament_index/resource_index/packages/tortoisebot_slam" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_core/tortoisebot_slamConfig.cmake" "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_core/tortoisebot_slamConfig-version.cmake" "DESTINATION" "share/tortoisebot_slam/cmake")
-ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_core/tortoisebot_slamConfig.cmake" "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_slam/ament_cmake_core/tortoisebot_slamConfig-version.cmake" "DESTINATION" "share/tortoisebot_slam/cmake")
+# install(FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_core/tortoisebot_slamConfig.cmake" "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_core/tortoisebot_slamConfig-version.cmake" "DESTINATION" "share/tortoisebot_slam/cmake")
+ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_core/tortoisebot_slamConfig.cmake" "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_slam/ament_cmake_core/tortoisebot_slamConfig-version.cmake" "DESTINATION" "share/tortoisebot_slam/cmake")
 
-# install(FILES "/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam/package.xml" "DESTINATION" "share/tortoisebot_slam")
-ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam/package.xml" "DESTINATION" "share/tortoisebot_slam")
+# install(FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam/package.xml" "DESTINATION" "share/tortoisebot_slam")
+ament_cmake_symlink_install_files("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam" FILES "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam/package.xml" "DESTINATION" "share/tortoisebot_slam")

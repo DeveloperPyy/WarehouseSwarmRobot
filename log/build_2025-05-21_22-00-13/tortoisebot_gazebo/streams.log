@@ -1,0 +1,52 @@
+[0.655s] Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot:/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo
+[0.733s] -- The C compiler identification is GNU 11.4.0
+[0.816s] -- The CXX compiler identification is GNU 11.4.0
+[0.824s] -- Detecting C compiler ABI info
+[0.913s] -- Detecting C compiler ABI info - done
+[0.923s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.923s] -- Detecting C compile features
+[0.923s] -- Detecting C compile features - done
+[0.927s] -- Detecting CXX compiler ABI info
+[1.045s] -- Detecting CXX compiler ABI info - done
+[1.053s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.053s] -- Detecting CXX compile features
+[1.054s] -- Detecting CXX compile features - done
+[1.058s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.287s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.398s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.437s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.564s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.568s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.569s] -- Added test 'lint_cmake' to check CMake code style
+[1.570s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.576s] -- Added test 'xmllint' to check XML markup files
+[1.577s] -- Configuring done
+[1.582s] -- Generating done
+[1.584s] -- Build files have been written to: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo
+[1.611s] Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot:/opt/ros/humble /usr/bin/cmake /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo
+[1.611s] Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot:/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo -- -j16 -l16
+[1.682s] Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot:/opt/ros/humble /usr/bin/cmake --build /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo -- -j16 -l16
+[1.683s] Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot:/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo
+[2.111s] -- Install configuration: ""
+[2.115s] -- Execute custom install script
+[2.115s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_materials.gazebo
+[2.115s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_physics.gazebo
+[2.115s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_plugins.gazebo
+[2.115s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/launch/gazebo.launch.py
+[2.115s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/worlds/room2.sdf
+[2.115s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/ament_index/resource_index/package_run_dependencies/tortoisebot_gazebo
+[2.116s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/ament_index/resource_index/parent_prefix_path/tortoisebot_gazebo
+[2.116s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/ament_prefix_path.sh
+[2.116s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/ament_prefix_path.dsv
+[2.116s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/path.sh
+[2.116s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/path.dsv
+[2.116s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.bash
+[2.117s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.sh
+[2.147s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.zsh
+[2.187s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.dsv
+[2.213s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.dsv
+[2.239s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/ament_index/resource_index/packages/tortoisebot_gazebo
+[2.272s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/cmake/tortoisebot_gazeboConfig.cmake
+[2.301s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/cmake/tortoisebot_gazeboConfig-version.cmake
+[2.326s] -- Symlinking: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.xml
+[2.357s] Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot:/opt/ros/humble /usr/bin/cmake --install /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_gazebo

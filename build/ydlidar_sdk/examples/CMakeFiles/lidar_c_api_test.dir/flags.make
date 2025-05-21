@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK/. -I/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK/core -I/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK/src -I/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK -I/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK/.. -I/home/shashank/ROS2_Projects/Rigbetellabs/build/ydlidar_sdk/examples -I/home/shashank/ROS2_Projects/Rigbetellabs/build/ydlidar_sdk
+C_INCLUDES = -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK/. -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK/core -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK/src -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK/.. -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk/examples -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk
 
 C_FLAGS = -fPIC -std=c++11
 

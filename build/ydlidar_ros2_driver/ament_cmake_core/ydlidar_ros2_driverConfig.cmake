@@ -16,7 +16,7 @@ set(_ydlidar_ros2_driver_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT ydlidar_ros2_driver_FIND_QUIETLY)
-  message(STATUS "Found ydlidar_ros2_driver: 1.0.1 (${ydlidar_ros2_driver_DIR})")
+  message(STATUS "Found ydlidar_ros2_driver: 1.0.2 (${ydlidar_ros2_driver_DIR})")
 endif()
 
 # warn when using a deprecated package

@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK/. -I/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK/core -I/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK/src -I/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK -I/home/shashank/ROS2_Projects/Rigbetellabs/build/ydlidar_sdk -I/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK/python
+C_INCLUDES = -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK/. -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK/core -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK/src -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK/python
 
 C_FLAGS = -fPIC
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK/. -I/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK/core -I/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK/src -I/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK -I/home/shashank/ROS2_Projects/Rigbetellabs/build/ydlidar_sdk -I/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK/python
+CXX_INCLUDES = -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK/. -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK/core -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK/src -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk -I/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK/python
 
 CXX_FLAGS =  -std=c++11 -fPIC
 

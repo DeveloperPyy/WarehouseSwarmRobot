@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/v4l2_camera
+CMAKE_SOURCE_DIR = /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/v4l2_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shashank/ROS2_Projects/Rigbetellabs/build/v4l2_camera
+CMAKE_BINARY_DIR = /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/shashank/ROS2_Projects/Rigbetellabs/build/v4l2_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/v4l2_camera /home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/v4l2_camera /home/shashank/ROS2_Projects/Rigbetellabs/build/v4l2_camera /home/shashank/ROS2_Projects/Rigbetellabs/build/v4l2_camera /home/shashank/ROS2_Projects/Rigbetellabs/build/v4l2_camera/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/v4l2_camera /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/v4l2_camera /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/v4l2_camera/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

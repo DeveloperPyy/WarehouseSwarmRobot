@@ -1,8 +1,8 @@
-# Install script for directory: /home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/YDLidar-SDK/core/math
+# Install script for directory: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK/core/math
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/shashank/ROS2_Projects/Rigbetellabs/install/ydlidar_sdk")
+  set(CMAKE_INSTALL_PREFIX "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

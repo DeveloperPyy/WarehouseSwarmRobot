@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/v4l2_camera/src/parameters.cpp" "CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o" "gcc" "CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o.d"
-  "/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/v4l2_camera/src/v4l2_camera.cpp" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o" "gcc" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o.d"
-  "/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/v4l2_camera/src/v4l2_camera_device.cpp" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o" "gcc" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o.d"
+  "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/v4l2_camera/src/parameters.cpp" "CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o" "gcc" "CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o.d"
+  "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/v4l2_camera/src/v4l2_camera.cpp" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o" "gcc" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o.d"
+  "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/v4l2_camera/src/v4l2_camera_device.cpp" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o" "gcc" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o.d"
   )
 
 # Targets to which this target links.

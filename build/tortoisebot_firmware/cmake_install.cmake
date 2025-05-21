@@ -1,8 +1,8 @@
-# Install script for directory: /home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_firmware
+# Install script for directory: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_firmware
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/shashank/ROS2_Projects/Rigbetellabs/install/tortoisebot_firmware")
+  set(CMAKE_INSTALL_PREFIX "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_firmware/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_firmware/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/shashank/ROS2_Projects/Rigbetellabs/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware"
+        "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware"
       )
 endif()
 
@@ -62,5 +62,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_firmware/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_firmware/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

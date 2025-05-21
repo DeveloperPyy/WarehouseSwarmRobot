@@ -1,0 +1,29 @@
+[1.195s] Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/build --no-deps symlink_data
+[1.590s] running develop
+[1.864s] running egg_info
+[1.864s] creating cartographer_multi_robot.egg-info
+[1.864s] writing cartographer_multi_robot.egg-info/PKG-INFO
+[1.864s] writing dependency_links to cartographer_multi_robot.egg-info/dependency_links.txt
+[1.864s] writing entry points to cartographer_multi_robot.egg-info/entry_points.txt
+[1.864s] writing requirements to cartographer_multi_robot.egg-info/requires.txt
+[1.864s] writing top-level names to cartographer_multi_robot.egg-info/top_level.txt
+[1.865s] writing manifest file 'cartographer_multi_robot.egg-info/SOURCES.txt'
+[1.865s] reading manifest file 'cartographer_multi_robot.egg-info/SOURCES.txt'
+[1.865s] writing manifest file 'cartographer_multi_robot.egg-info/SOURCES.txt'
+[1.868s] running build_ext
+[1.868s] Creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/lib/python3.10/site-packages/cartographer-multi-robot.egg-link (link to .)
+[1.870s] Installing cartographer_multi_robot script to /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/lib/cartographer_multi_robot
+[1.874s] 
+[1.874s] Installed /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot
+[1.874s] running symlink_data
+[1.874s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/ament_index
+[1.874s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/ament_index/resource_index
+[1.874s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/ament_index/resource_index/packages
+[1.875s] symbolically linking /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/resource/cartographer_multi_robot -> /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/ament_index/resource_index/packages
+[1.875s] symbolically linking /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/package.xml -> /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot
+[1.875s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/cartographer_multi_robot
+[1.875s] symbolically linking /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/cartographer_multi_robot/cartographer_multi.launch.py -> /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/cartographer_multi_robot
+[1.875s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/config
+[1.875s] symbolically linking /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/config/bot.lua -> /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/config
+[1.875s] symbolically linking /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/config/X2.yaml -> /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/share/cartographer_multi_robot/config
+[1.983s] Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot' returned '0': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/cartographer_multi_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/cartographer_multi_robot/build --no-deps symlink_data

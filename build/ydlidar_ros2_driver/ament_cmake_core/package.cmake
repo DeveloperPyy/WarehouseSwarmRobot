@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "ydlidar_ros2_driver")
-set(ydlidar_ros2_driver_VERSION "1.0.1")
+set(ydlidar_ros2_driver_VERSION "1.0.2")
 set(ydlidar_ros2_driver_MAINTAINER "Tony <support@ydlidar.com>")
 set(ydlidar_ros2_driver_BUILD_DEPENDS "rclcpp" "sensor_msgs" "visualization_msgs" "geometry_msgs" "std_srvs")
 set(ydlidar_ros2_driver_BUILDTOOL_DEPENDS "ament_cmake")
