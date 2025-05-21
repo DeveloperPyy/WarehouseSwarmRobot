@@ -1,4 +1,4 @@
-# Install script for directory: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/ydlidar_ros2_driver
+# Install script for directory: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/ydlidar_ros2_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,10 +1,6 @@
 /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/launch/cartographer.launch.py
-/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/launch/cartographer_bot1.launch.py
-/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/launch/cartographer_bot2.launch.py
 /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/config/ekf.yaml
 /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/config/slam.lua
-/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/config/slam_bot1.lua
-/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/config/slam_bot2.lua
 /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/ament_index/resource_index/package_run_dependencies/tortoisebot_slam
 /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/ament_index/resource_index/parent_prefix_path/tortoisebot_slam
 /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_slam/share/tortoisebot_slam/environment/ament_prefix_path.sh

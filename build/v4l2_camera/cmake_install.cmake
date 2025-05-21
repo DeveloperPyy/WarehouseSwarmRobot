@@ -1,4 +1,4 @@
-# Install script for directory: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/v4l2_camera
+# Install script for directory: /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/v4l2_camera
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

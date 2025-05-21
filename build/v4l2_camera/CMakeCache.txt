@@ -574,7 +574,7 @@ v4l2_camera_IS_TOP_LEVEL:STATIC=ON
 v4l2_camera_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;rclcpp_components::component_manager;general;camera_info_manager::camera_info_manager;general;cv_bridge::cv_bridge;general;image_transport::image_transport;
 
 //Value Computed by CMake
-v4l2_camera_SOURCE_DIR:STATIC=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/v4l2_camera
+v4l2_camera_SOURCE_DIR:STATIC=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/v4l2_camera
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
@@ -677,7 +677,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/v4l2_camera
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/v4l2_camera
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

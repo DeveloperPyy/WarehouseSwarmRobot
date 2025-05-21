@@ -1,1 +1,0 @@
-/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_navigation/launch/navigation_bot1.launch.py

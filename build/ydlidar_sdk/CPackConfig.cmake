@@ -10,7 +10,7 @@
 # usually begin with CPACK_<GENNAME>_xxxx.
 
 
-set(CPACK_BUILD_SOURCE_DIRS "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK;/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk")
+set(CPACK_BUILD_SOURCE_DIRS "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/YDLidar-SDK;/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk")
 set(CPACK_CMAKE_GENERATOR "Unix Makefiles")
 set(CPACK_COMPONENT_UNSPECIFIED_HIDDEN "TRUE")
 set(CPACK_COMPONENT_UNSPECIFIED_REQUIRED "TRUE")
@@ -24,7 +24,7 @@ set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_SUMMARY "ydlidar_sdk built using CMake")
 set(CPACK_GENERATOR "TBZ2;DEB")
 set(CPACK_INSTALL_CMAKE_PROJECTS "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk;ydlidar_sdk;ALL;/")
 set(CPACK_INSTALL_PREFIX "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/ydlidar_sdk")
-set(CPACK_MODULE_PATH "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK/cmake")
+set(CPACK_MODULE_PATH "/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/YDLidar-SDK/cmake")
 set(CPACK_NSIS_DISPLAY_NAME "ydlidar_sdk-1.2.15 1.2.15")
 set(CPACK_NSIS_INSTALLER_ICON_CODE "")
 set(CPACK_NSIS_INSTALLER_MUI_ICON_CODE "")

@@ -539,7 +539,7 @@ ydlidar_ros2_driver_BINARY_DIR:STATIC=/home/shashank/ROS2_Projects/Tortoisebot_W
 ydlidar_ros2_driver_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-ydlidar_ros2_driver_SOURCE_DIR:STATIC=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/ydlidar_ros2_driver
+ydlidar_ros2_driver_SOURCE_DIR:STATIC=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/ydlidar_ros2_driver
 
 //The directory containing a CMake configuration file for ydlidar_sdk.
 ydlidar_sdk_DIR:PATH=/usr/local/lib/cmake/ydlidar_sdk
@@ -633,7 +633,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/ydlidar_ros2_driver
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/ydlidar_ros2_driver
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

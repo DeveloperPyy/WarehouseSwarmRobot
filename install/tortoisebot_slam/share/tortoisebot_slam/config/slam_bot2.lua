@@ -1,1 +1,0 @@
-/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/tortoisebot_slam/config/slam_bot2.lua

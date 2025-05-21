@@ -276,7 +276,7 @@ ydlidar_sdk_IS_TOP_LEVEL:STATIC=ON
 ydlidar_sdk_LIB_DEPENDS:STATIC=general;pthread;general;rt;
 
 //Value Computed by CMake
-ydlidar_sdk_SOURCE_DIR:STATIC=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK
+ydlidar_sdk_SOURCE_DIR:STATIC=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/YDLidar-SDK
 
 //Value Computed by CMake
 ydlidar_test_BINARY_DIR:STATIC=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/ydlidar_sdk/examples
@@ -285,7 +285,7 @@ ydlidar_test_BINARY_DIR:STATIC=/home/shashank/ROS2_Projects/Tortoisebot_Warehous
 ydlidar_test_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-ydlidar_test_SOURCE_DIR:STATIC=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK/examples
+ydlidar_test_SOURCE_DIR:STATIC=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/YDLidar-SDK/examples
 
 
 ########################
@@ -376,7 +376,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot/YDLidar-SDK
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/tortoisebot_swarmrobot/YDLidar-SDK
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
