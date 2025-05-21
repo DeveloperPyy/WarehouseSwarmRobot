@@ -1,0 +1,3 @@
+[submodule "src/tortoisebot_swarmrobot"]
+	path = src/tortoisebot_swarmrobot
+	url = https://github.com/DeveloperPyy/tortoisebot_swarmrobot.git
