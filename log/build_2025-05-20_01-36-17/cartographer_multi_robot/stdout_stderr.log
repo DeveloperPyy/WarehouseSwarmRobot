@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating cartographer_multi_robot.egg-info
+writing cartographer_multi_robot.egg-info/PKG-INFO
+writing dependency_links to cartographer_multi_robot.egg-info/dependency_links.txt
+writing entry points to cartographer_multi_robot.egg-info/entry_points.txt
+writing requirements to cartographer_multi_robot.egg-info/requires.txt
+writing top-level names to cartographer_multi_robot.egg-info/top_level.txt
+writing manifest file 'cartographer_multi_robot.egg-info/SOURCES.txt'
+reading manifest file 'cartographer_multi_robot.egg-info/SOURCES.txt'
+writing manifest file 'cartographer_multi_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shashank/ROS2_Projects/Rigbetellabs/install/cartographer_multi_robot/lib/python3.10/site-packages/cartographer-multi-robot.egg-link (link to .)
+Installing cartographer_multi_robot script to /home/shashank/ROS2_Projects/Rigbetellabs/install/cartographer_multi_robot/lib/cartographer_multi_robot
+
+Installed /home/shashank/ROS2_Projects/Rigbetellabs/build/cartographer_multi_robot
+running symlink_data
+creating /home/shashank/ROS2_Projects/Rigbetellabs/install/cartographer_multi_robot/share/ament_index
+creating /home/shashank/ROS2_Projects/Rigbetellabs/install/cartographer_multi_robot/share/ament_index/resource_index
+creating /home/shashank/ROS2_Projects/Rigbetellabs/install/cartographer_multi_robot/share/ament_index/resource_index/packages
+symbolically linking /home/shashank/ROS2_Projects/Rigbetellabs/build/cartographer_multi_robot/resource/cartographer_multi_robot -> /home/shashank/ROS2_Projects/Rigbetellabs/install/cartographer_multi_robot/share/ament_index/resource_index/packages
+symbolically linking /home/shashank/ROS2_Projects/Rigbetellabs/build/cartographer_multi_robot/package.xml -> /home/shashank/ROS2_Projects/Rigbetellabs/install/cartographer_multi_robot/share/cartographer_multi_robot
+creating /home/shashank/ROS2_Projects/Rigbetellabs/install/cartographer_multi_robot/share/cartographer_multi_robot/cartographer_multi_robot
+symbolically linking /home/shashank/ROS2_Projects/Rigbetellabs/build/cartographer_multi_robot/cartographer_multi_robot/cartographer_multi.launch.py -> /home/shashank/ROS2_Projects/Rigbetellabs/install/cartographer_multi_robot/share/cartographer_multi_robot/cartographer_multi_robot
+creating /home/shashank/ROS2_Projects/Rigbetellabs/install/cartographer_multi_robot/share/cartographer_multi_robot/config
+symbolically linking /home/shashank/ROS2_Projects/Rigbetellabs/build/cartographer_multi_robot/config/bot.lua -> /home/shashank/ROS2_Projects/Rigbetellabs/install/cartographer_multi_robot/share/cartographer_multi_robot/config
+symbolically linking /home/shashank/ROS2_Projects/Rigbetellabs/build/cartographer_multi_robot/config/X2.yaml -> /home/shashank/ROS2_Projects/Rigbetellabs/install/cartographer_multi_robot/share/cartographer_multi_robot/config

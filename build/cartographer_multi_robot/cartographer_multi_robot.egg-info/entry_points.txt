@@ -1,0 +1,3 @@
+[console_scripts]
+cartographer_multi_robot = cartographer_multi_robot.cartographer_multi:generate_launch_description
+

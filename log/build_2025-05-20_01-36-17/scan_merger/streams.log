@@ -1,0 +1,24 @@
+[1.331s] Invoking command in '/home/shashank/ROS2_Projects/Rigbetellabs/build/scan_merger': PYTHONPATH=/home/shashank/ROS2_Projects/Rigbetellabs/build/scan_merger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Rigbetellabs/install/scan_merger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Rigbetellabs/build/scan_merger/build --no-deps symlink_data
+[1.712s] running develop
+[2.439s] running egg_info
+[2.440s] creating scan_merger.egg-info
+[2.440s] writing scan_merger.egg-info/PKG-INFO
+[2.440s] writing dependency_links to scan_merger.egg-info/dependency_links.txt
+[2.440s] writing entry points to scan_merger.egg-info/entry_points.txt
+[2.440s] writing requirements to scan_merger.egg-info/requires.txt
+[2.440s] writing top-level names to scan_merger.egg-info/top_level.txt
+[2.440s] writing manifest file 'scan_merger.egg-info/SOURCES.txt'
+[2.440s] reading manifest file 'scan_merger.egg-info/SOURCES.txt'
+[2.441s] writing manifest file 'scan_merger.egg-info/SOURCES.txt'
+[2.444s] running build_ext
+[2.448s] Creating /home/shashank/ROS2_Projects/Rigbetellabs/install/scan_merger/lib/python3.10/site-packages/scan-merger.egg-link (link to .)
+[2.450s] Installing scan_merger script to /home/shashank/ROS2_Projects/Rigbetellabs/install/scan_merger/lib/scan_merger
+[2.454s] 
+[2.455s] Installed /home/shashank/ROS2_Projects/Rigbetellabs/build/scan_merger
+[2.455s] running symlink_data
+[2.455s] creating /home/shashank/ROS2_Projects/Rigbetellabs/install/scan_merger/share/ament_index
+[2.455s] creating /home/shashank/ROS2_Projects/Rigbetellabs/install/scan_merger/share/ament_index/resource_index
+[2.455s] creating /home/shashank/ROS2_Projects/Rigbetellabs/install/scan_merger/share/ament_index/resource_index/packages
+[2.455s] symbolically linking /home/shashank/ROS2_Projects/Rigbetellabs/build/scan_merger/resource/scan_merger -> /home/shashank/ROS2_Projects/Rigbetellabs/install/scan_merger/share/ament_index/resource_index/packages
+[2.456s] symbolically linking /home/shashank/ROS2_Projects/Rigbetellabs/build/scan_merger/package.xml -> /home/shashank/ROS2_Projects/Rigbetellabs/install/scan_merger/share/scan_merger
+[2.681s] Invoked command in '/home/shashank/ROS2_Projects/Rigbetellabs/build/scan_merger' returned '0': PYTHONPATH=/home/shashank/ROS2_Projects/Rigbetellabs/build/scan_merger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Rigbetellabs/install/scan_merger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Rigbetellabs/build/scan_merger/build --no-deps symlink_data

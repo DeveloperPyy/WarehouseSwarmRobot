@@ -1,0 +1,3 @@
+[console_scripts]
+scan_merger = scan_merger.scan_merger:main
+

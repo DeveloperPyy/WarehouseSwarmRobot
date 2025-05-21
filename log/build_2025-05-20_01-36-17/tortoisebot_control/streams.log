@@ -1,0 +1,24 @@
+[1.358s] Invoking command in '/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_control': PYTHONPATH=/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Rigbetellabs/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_control/build --no-deps symlink_data
+[1.703s] running develop
+[2.234s] running egg_info
+[2.234s] creating tortoisebot_control.egg-info
+[2.234s] writing tortoisebot_control.egg-info/PKG-INFO
+[2.234s] writing dependency_links to tortoisebot_control.egg-info/dependency_links.txt
+[2.234s] writing entry points to tortoisebot_control.egg-info/entry_points.txt
+[2.235s] writing requirements to tortoisebot_control.egg-info/requires.txt
+[2.235s] writing top-level names to tortoisebot_control.egg-info/top_level.txt
+[2.235s] writing manifest file 'tortoisebot_control.egg-info/SOURCES.txt'
+[2.248s] reading manifest file 'tortoisebot_control.egg-info/SOURCES.txt'
+[2.248s] writing manifest file 'tortoisebot_control.egg-info/SOURCES.txt'
+[2.262s] running build_ext
+[2.263s] Creating /home/shashank/ROS2_Projects/Rigbetellabs/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot-control.egg-link (link to .)
+[2.264s] Installing teleop_twist_keyboard script to /home/shashank/ROS2_Projects/Rigbetellabs/install/tortoisebot_control/lib/tortoisebot_control
+[2.265s] 
+[2.265s] Installed /home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_control
+[2.265s] running symlink_data
+[2.271s] creating /home/shashank/ROS2_Projects/Rigbetellabs/install/tortoisebot_control/share/ament_index
+[2.272s] creating /home/shashank/ROS2_Projects/Rigbetellabs/install/tortoisebot_control/share/ament_index/resource_index
+[2.272s] creating /home/shashank/ROS2_Projects/Rigbetellabs/install/tortoisebot_control/share/ament_index/resource_index/packages
+[2.272s] symbolically linking /home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_control/resource/tortoisebot_control -> /home/shashank/ROS2_Projects/Rigbetellabs/install/tortoisebot_control/share/ament_index/resource_index/packages
+[2.272s] symbolically linking /home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_control/package.xml -> /home/shashank/ROS2_Projects/Rigbetellabs/install/tortoisebot_control/share/tortoisebot_control
+[2.557s] Invoked command in '/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_control' returned '0': PYTHONPATH=/home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Rigbetellabs/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Rigbetellabs/build/tortoisebot_control/build --no-deps symlink_data

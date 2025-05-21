@@ -1,0 +1,1 @@
+/home/shashank/ROS2_Projects/Rigbetellabs/src/tortoisebot/tortoisebot_slam/config/slam_bot2.lua
