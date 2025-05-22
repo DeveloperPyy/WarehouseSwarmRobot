@@ -31,8 +31,8 @@ WarehouseSwarmRobot/
 
 - [ROS2 Humble (Robot Operating System)](https://docs.ros.org/en/humble/Installation.html)
 - Compatible YDLiDAR sensors
-    -[YDLiDAR Driver (ydlidar_ros2_driver)](https://github.com/YDLIDAR/ydlidar_ros2_driver/tree/humble)
-    -[YDLiDAR-SDK (ydlidar_sdk)](https://github.com/YDLIDAR/YDLidar-SDK)
+    [YDLiDAR Driver (ydlidar_ros2_driver)](https://github.com/YDLIDAR/ydlidar_ros2_driver/tree/humble)
+    [YDLiDAR-SDK (ydlidar_sdk)](https://github.com/YDLIDAR/YDLidar-SDK)
 - [RViz2](https://docs.ros.org/en/humble/Tutorials/Intermediate/RViz/RViz-User-Guide/RViz-User-Guide.html#install-or-build-rviz) for 3D visualization
 
 ### Installation
