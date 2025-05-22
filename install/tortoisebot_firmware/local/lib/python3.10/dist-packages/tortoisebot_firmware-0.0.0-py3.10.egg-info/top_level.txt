@@ -1,1 +1,0 @@
-/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_firmware/ament_cmake_python/tortoisebot_firmware/tortoisebot_firmware.egg-info/top_level.txt

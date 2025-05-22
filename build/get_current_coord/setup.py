@@ -1,1 +1,0 @@
-/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/src/get_current_coord/setup.py

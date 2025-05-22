@@ -1,3 +1,0 @@
-[console_scripts]
-get_coord = get_current_coord.get_coord:main
-

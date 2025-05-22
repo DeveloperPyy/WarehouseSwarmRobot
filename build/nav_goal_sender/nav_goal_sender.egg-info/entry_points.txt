@@ -1,3 +1,0 @@
-[console_scripts]
-send_goal = nav_goal_sender.send_goal:main
-
