@@ -38,7 +38,7 @@ WarehouseSwarmRobot/
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/DeveloperPyy/WarehouseSwarmRobot.git
+    git clone --recurse-submodules https://github.com/DeveloperPyy/WarehouseSwarmRobot.git
     ```
 
 2. Navigate to the project directory:
@@ -50,14 +50,14 @@ WarehouseSwarmRobot/
 3. Build the project:
 
     ```bash
-    # If using a ROS workspace
-    catkin_make
+    colcon build --symlink-install --packages-select ydlidar_ros2_driver ydlidar_sdk tortoisebot_firmware
+    colcon build --symlink-instal
     ```
 
 4. Source the setup script:
 
     ```bash
-    source devel/setup.bash
+    source install/setup.bash
     ```
 
 ### Running the Project
@@ -65,24 +65,12 @@ WarehouseSwarmRobot/
 1. Launch the main application:
 
     ```bash
-    roslaunch warehouse_swarm_robot main.launch
+    ros2 launch ydlidar_ros2_driver ydlidar_launch.py
     ```
-
-2. Start RViz with the predefined configuration:
-
-    ```bash
-    rviz -d rviz_configs/your_config_file.rviz
-    ```
-
-    Replace `your_config_file.rviz` with the actual file name (e.g., `default.rviz`).
 
 ## Contributing
 
 Contributions are welcome! Please [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repository and submit a [pull request](https://docs.github.com/en/pull-requests) with your improvements or fixes.
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
