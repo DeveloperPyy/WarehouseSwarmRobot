@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+get_current_coord/__init__.py
+get_current_coord/get_coord.py
+get_current_coord.egg-info/PKG-INFO
+get_current_coord.egg-info/SOURCES.txt
+get_current_coord.egg-info/dependency_links.txt
+get_current_coord.egg-info/entry_points.txt
+get_current_coord.egg-info/requires.txt
+get_current_coord.egg-info/top_level.txt
+get_current_coord.egg-info/zip-safe
+resource/get_current_coord

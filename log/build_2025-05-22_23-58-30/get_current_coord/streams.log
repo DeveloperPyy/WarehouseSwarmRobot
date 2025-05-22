@@ -1,0 +1,24 @@
+[2.260s] Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/get_current_coord': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/get_current_coord/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/get_current_coord/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/get_current_coord/build --no-deps symlink_data
+[2.748s] running develop
+[3.164s] running egg_info
+[3.164s] creating get_current_coord.egg-info
+[3.164s] writing get_current_coord.egg-info/PKG-INFO
+[3.166s] writing dependency_links to get_current_coord.egg-info/dependency_links.txt
+[3.168s] writing entry points to get_current_coord.egg-info/entry_points.txt
+[3.169s] writing requirements to get_current_coord.egg-info/requires.txt
+[3.169s] writing top-level names to get_current_coord.egg-info/top_level.txt
+[3.169s] writing manifest file 'get_current_coord.egg-info/SOURCES.txt'
+[3.176s] reading manifest file 'get_current_coord.egg-info/SOURCES.txt'
+[3.178s] writing manifest file 'get_current_coord.egg-info/SOURCES.txt'
+[3.178s] running build_ext
+[3.178s] Creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/get_current_coord/lib/python3.10/site-packages/get-current-coord.egg-link (link to .)
+[3.178s] Installing get_coord script to /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/get_current_coord/lib/get_current_coord
+[3.179s] 
+[3.179s] Installed /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/get_current_coord
+[3.179s] running symlink_data
+[3.179s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/get_current_coord/share/ament_index
+[3.179s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/get_current_coord/share/ament_index/resource_index
+[3.179s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/get_current_coord/share/ament_index/resource_index/packages
+[3.192s] symbolically linking /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/get_current_coord/resource/get_current_coord -> /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/get_current_coord/share/ament_index/resource_index/packages
+[3.192s] symbolically linking /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/get_current_coord/package.xml -> /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/get_current_coord/share/get_current_coord
+[3.422s] Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/get_current_coord' returned '0': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/get_current_coord/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/get_current_coord/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/get_current_coord/build --no-deps symlink_data

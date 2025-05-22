@@ -1,0 +1,24 @@
+[2.208s] Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control/build --no-deps symlink_data
+[2.695s] running develop
+[3.003s] running egg_info
+[3.003s] creating tortoisebot_control.egg-info
+[3.003s] writing tortoisebot_control.egg-info/PKG-INFO
+[3.003s] writing dependency_links to tortoisebot_control.egg-info/dependency_links.txt
+[3.003s] writing entry points to tortoisebot_control.egg-info/entry_points.txt
+[3.003s] writing requirements to tortoisebot_control.egg-info/requires.txt
+[3.003s] writing top-level names to tortoisebot_control.egg-info/top_level.txt
+[3.003s] writing manifest file 'tortoisebot_control.egg-info/SOURCES.txt'
+[3.007s] reading manifest file 'tortoisebot_control.egg-info/SOURCES.txt'
+[3.008s] writing manifest file 'tortoisebot_control.egg-info/SOURCES.txt'
+[3.011s] running build_ext
+[3.011s] Creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot-control.egg-link (link to .)
+[3.012s] Installing teleop_twist_keyboard script to /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/lib/tortoisebot_control
+[3.012s] 
+[3.013s] Installed /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control
+[3.013s] running symlink_data
+[3.013s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/ament_index
+[3.013s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/ament_index/resource_index
+[3.013s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/ament_index/resource_index/packages
+[3.013s] symbolically linking /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control/resource/tortoisebot_control -> /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/ament_index/resource_index/packages
+[3.013s] symbolically linking /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control/package.xml -> /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/share/tortoisebot_control
+[3.110s] Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control' returned '0': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/tortoisebot_control/build --no-deps symlink_data

@@ -1,0 +1,24 @@
+[2.262s] Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/nav_goal_sender': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/nav_goal_sender/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/nav_goal_sender/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/nav_goal_sender/build --no-deps symlink_data
+[2.773s] running develop
+[3.449s] running egg_info
+[3.450s] creating nav_goal_sender.egg-info
+[3.451s] writing nav_goal_sender.egg-info/PKG-INFO
+[3.451s] writing dependency_links to nav_goal_sender.egg-info/dependency_links.txt
+[3.451s] writing entry points to nav_goal_sender.egg-info/entry_points.txt
+[3.452s] writing requirements to nav_goal_sender.egg-info/requires.txt
+[3.452s] writing top-level names to nav_goal_sender.egg-info/top_level.txt
+[3.452s] writing manifest file 'nav_goal_sender.egg-info/SOURCES.txt'
+[3.452s] reading manifest file 'nav_goal_sender.egg-info/SOURCES.txt'
+[3.452s] writing manifest file 'nav_goal_sender.egg-info/SOURCES.txt'
+[3.452s] running build_ext
+[3.452s] Creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/nav_goal_sender/lib/python3.10/site-packages/nav-goal-sender.egg-link (link to .)
+[3.453s] Installing send_goal script to /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/nav_goal_sender/lib/nav_goal_sender
+[3.453s] 
+[3.453s] Installed /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/nav_goal_sender
+[3.453s] running symlink_data
+[3.453s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/nav_goal_sender/share/ament_index
+[3.454s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/nav_goal_sender/share/ament_index/resource_index
+[3.454s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/nav_goal_sender/share/ament_index/resource_index/packages
+[3.454s] symbolically linking /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/nav_goal_sender/resource/nav_goal_sender -> /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/nav_goal_sender/share/ament_index/resource_index/packages
+[3.454s] symbolically linking /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/nav_goal_sender/package.xml -> /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/nav_goal_sender/share/nav_goal_sender
+[3.756s] Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/nav_goal_sender' returned '0': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/nav_goal_sender/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/nav_goal_sender/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/nav_goal_sender/build --no-deps symlink_data

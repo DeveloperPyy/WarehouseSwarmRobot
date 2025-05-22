@@ -1,0 +1,24 @@
+[2.267s] Invoking command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger/build --no-deps symlink_data
+[2.759s] running develop
+[3.412s] running egg_info
+[3.412s] creating scan_merger.egg-info
+[3.412s] writing scan_merger.egg-info/PKG-INFO
+[3.413s] writing dependency_links to scan_merger.egg-info/dependency_links.txt
+[3.413s] writing entry points to scan_merger.egg-info/entry_points.txt
+[3.413s] writing requirements to scan_merger.egg-info/requires.txt
+[3.413s] writing top-level names to scan_merger.egg-info/top_level.txt
+[3.413s] writing manifest file 'scan_merger.egg-info/SOURCES.txt'
+[3.424s] reading manifest file 'scan_merger.egg-info/SOURCES.txt'
+[3.425s] writing manifest file 'scan_merger.egg-info/SOURCES.txt'
+[3.428s] running build_ext
+[3.428s] Creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/lib/python3.10/site-packages/scan-merger.egg-link (link to .)
+[3.428s] Installing scan_merger script to /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/lib/scan_merger
+[3.429s] 
+[3.429s] Installed /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger
+[3.429s] running symlink_data
+[3.429s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/ament_index
+[3.429s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/ament_index/resource_index
+[3.437s] creating /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/ament_index/resource_index/packages
+[3.437s] symbolically linking /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger/resource/scan_merger -> /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/ament_index/resource_index/packages
+[3.438s] symbolically linking /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger/package.xml -> /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/share/scan_merger
+[3.767s] Invoked command in '/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger' returned '0': PYTHONPATH=/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/install/scan_merger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shashank/ROS2_Projects/Tortoisebot_Warehouse_SLAM/build/scan_merger/build --no-deps symlink_data
