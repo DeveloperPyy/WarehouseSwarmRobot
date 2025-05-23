@@ -1,9 +1,0 @@
-source;share/scan_merger/hook/pythonpath.ps1
-source;share/scan_merger/hook/pythonpath.dsv
-source;share/scan_merger/hook/pythonpath.sh
-source;share/scan_merger/hook/ament_prefix_path.ps1
-source;share/scan_merger/hook/ament_prefix_path.dsv
-source;share/scan_merger/hook/ament_prefix_path.sh
-source;../../build/scan_merger/share/scan_merger/hook/pythonpath_develop.ps1
-source;../../build/scan_merger/share/scan_merger/hook/pythonpath_develop.dsv
-source;../../build/scan_merger/share/scan_merger/hook/pythonpath_develop.sh
