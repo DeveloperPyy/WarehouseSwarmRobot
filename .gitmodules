@@ -1,4 +1,4 @@
 [submodule "src/tortoisebot_swarmrobot"]
 	path = src/tortoisebot_swarmrobot
 	url = https://github.com/DeveloperPyy/tortoisebot_swarmrobot.git
-	branch = bot2
+	branch = ros2-humble
